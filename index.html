@@ -3,12 +3,23 @@
 
 <head>
   <style>
-
-    #resume_button:hover{
-
+  .center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 10vh;
+    }
+    #resume-button
+    {
+      width: 200px;
+      height:50px;
+      background-color: transparent;
+      text-align: center;
+      border-radius:25px;
+    }
+    #resume-button:hover{
       cursor: pointer;
-      color: greenyellow;
-      opacity: 20px;
+      border: 15em;
     }
   </style>
   <meta charset="utf-8">
@@ -368,10 +379,13 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
   <!--download resume-->
-  <a href="https://cyan-belita-8.tiiny.site/" target="blank">
-    <button style="width: 200px;height:50px;background-color: transparent;text-align: center;border-radius:25px ;" id="resume_button">
-      View Resume
-    </button></a>
+  <div class="center">
+    <a href="https://cyan-belita-8.tiiny.site/" target="_blank">
+      <button id="resume-button">
+        View Resume
+      </button>
+    </a>
+  </div>
 
 </body>
 
